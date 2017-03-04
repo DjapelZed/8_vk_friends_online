@@ -1,7 +1,16 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+Скрипт предназначен для социальной сети Вконтакте. Он выводит список online друзей.
 
-# Project Goals
+# Как ипользовать
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Открой через любой текстовый редактор **vk_friends_online.py**, и поменяй значение переменной APP_ID с **None** на **ID своего Standalone-приложения.**Например:
+```python
+APP_ID = 12345
+```
+Введи логин и пароль от ВК (данные никуда не передаются), затем скрипт выведет имя с фамилией друзей, которые online.
+
+# Требования
+
+Python 3
+vk api
