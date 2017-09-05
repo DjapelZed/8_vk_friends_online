@@ -1,5 +1,4 @@
 import vk
-import time
 import getpass
 
 
